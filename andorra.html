@@ -290,11 +290,11 @@
     </body>
     <script>
         const imgElement = document.querySelector('.grid #change');
-        let imagesLength = 170;
-        let currentIndex = 1;
+        let images = ['20', '170', '169'];
+        let currentIndex = 0;
         setInterval(() => {
-            currentIndex = (currentIndex % imagesLength) + 1;
-            imgElement.src = './assets/image/img'+currentIndex+'.jpg';
+            currentIndex = (currentIndex % images.length) + 1;
+            imgElement.src = './assets/image/img'+images[currentIndex]+'.jpg';
         }, 1500);
     </script>
 </html>
