@@ -1,4 +1,4 @@
 # WebDesignerCameron Journal
 Journal of me, WebDesignerCameron.
 ## Entries
-Andorra
+[Andorra](https://webdesignercameron.github.io/journal/andorra)
