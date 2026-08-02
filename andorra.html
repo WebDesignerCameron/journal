@@ -316,7 +316,7 @@
         let images = ['20', '170', '169', '172', '166', '171', '162'];
         let currentIndex = 0;
         setInterval(() => {
-            currentIndex = (currentIndex % images.length) + 1;
+            currentIndex = currentIndex % images.length;
             imgElement.src = './assets/image/img'+images[currentIndex]+'.jpg';
         }, 1500);
     </script>
