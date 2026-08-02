@@ -314,9 +314,9 @@
     <script>
         const imgElement = document.querySelector('.grid #change');
         let images = ['20', '170', '169', '172', '166', '171', '162'];
-        let currentIndex = 0;
+        let currentIndex = -1;
         setInterval(() => {
-            currentIndex = currentIndex % images.length;
+            currentIndex = (currentIndex % images.length) + 1;
             imgElement.src = './assets/image/img'+images[currentIndex]+'.jpg';
         }, 1500);
     </script>
